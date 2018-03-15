@@ -16,3 +16,6 @@
 - [ ] Build and push HTML file
 - [ ] Build and push CSS file
 - [ ] Upload and push JQuery thumbnail scroller by **Manos Malihu**
+- [ ] Pull all branches to master branch
+- [ ] Set up Firebase
+- [ ] Deploy to Firebase
