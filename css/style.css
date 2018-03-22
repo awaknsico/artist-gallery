@@ -93,4 +93,23 @@ img.clone{
 }
 .fullpage_previous{
 	background:#000 url(../images/icons/previous.png) no-repeat center center;
-	left:-50px;
+    left:-50px;
+}
+.fullpage_thumbnailtoggle{
+	height:50px;
+	background:#000;
+	width:200px;
+	text-align:center;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	position:fixed;
+	left:50%;
+	margin-left:-100px;
+	bottom:-50px;
+	line-height:50px;
+	cursor:pointer;
+	opacity:0.8;
+}
+.fullpage_thumbnailtoggle:hover{
+	opacity:1.0;
+}
