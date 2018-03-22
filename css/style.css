@@ -50,3 +50,11 @@ img.clone{
 	padding:2px;
 	outline:none;
 }
+.fullpage_overlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:transparent url(../images/icons/pattern2.png) repeat-x bottom left;
+}
