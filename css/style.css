@@ -2,9 +2,9 @@
 	margin:0;
 	padding:0;
 }
-/*@To-do - activate overflow*/
 body {
-	background:#490657;
+    background:#490657;
+    overflow:hidden;
 	font-family:Arial, Helvetica, sans-serif;
 	text-transform:uppercase;
 	color:#fff;
@@ -112,4 +112,10 @@ img.clone{
 }
 .fullpage_thumbnailtoggle:hover{
 	opacity:1.0;
+}
+img.fullpage_preview{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
 }
