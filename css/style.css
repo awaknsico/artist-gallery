@@ -58,3 +58,39 @@ img.clone{
 	left:0px;
 	background:transparent url(../images/icons/pattern2.png) repeat-x bottom left;
 }
+.fullpage_loading{
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-35px 0px 0px -35px;
+	background:#000 url(../images/icons/loader.gif) no-repeat center center;
+	width:70px;
+	height:70px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	z-index:999;
+	opacity:0.7;
+}
+.fullpage_next,
+.fullpage_previous{
+	width:50px;
+	height:50px;
+	position:fixed;
+	top:50%;
+	margin-top:-15px;
+	cursor:pointer;
+	opacity:0.5;
+}
+.fullpage_next:hover,
+.fullpage_previous:hover{
+	opacity:0.9;
+}
+.fullpage_next{
+	background:#000 url(../images/icons/next.png) no-repeat center center;
+	right:-50px;
+}
+.fullpage_previous{
+	background:#000 url(../images/icons/previous.png) no-repeat center center;
+	left:-50px;
