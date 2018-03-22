@@ -26,3 +26,27 @@ body {
 			to(rgb(18, 18, 18))
 		);
 }
+#thumbnailScroller{
+	position:relative;
+	overflow:hidden;
+}
+#thumbnailScroller .container{
+	position:relative;
+	left:0;
+}
+#thumbnailScroller .content{
+	float:left;
+}
+#thumbnailScroller .content div{
+	margin:2px;
+	height:100%;
+}
+#thumbnailScroller img,
+img.clone{
+	border:5px solid #fff;
+	height:120px;
+}
+#thumbnailScroller a{
+	padding:2px;
+	outline:none;
+}
