@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="2017 Gallery by Etuk Unyime Arts/>
+    <meta name="description" content="2017 Gallery by Etuk Unyime Arts"/>
     <meta name="keywords" content="etuk unyime, etuk unyime arts, 2017 gallery, artist gallery, full page, full screen, auto scroll, scrollable, fancy, portfolio"/>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
@@ -13,55 +13,55 @@
 </head>
 <body>
     <h1 class="title">2017 Gallery by Etuk Unyime Arts</h1>
-    <div>
-        <img src="images/1.jpg" alt="Godswill Akpabio" class="fullpage_preview" style="display:none;"/>
+    <div id="fullpage_gallery" class="fullpage_gallery">
+        <img src="images/1.jpg" alt="" class="fullpage_preview" style="display:none;"/>
         <div class="fullpage_overlay"></div>
-        <div class="fullpage_loading"></div>
-        <div class="fullpage_next"></div>
-        <div class="fullpage_previous"></div>
+        <div id="fullpage_loading" class="fullpage_loading"></div>
+        <div id="fullpage_next" class="fullpage_next"></div>
+        <div id="fullpage_previous" class="fullpage_previous"></div>
         <div id="parent_container">
             <div id="thumbnailScroller">
-                <div id="container">
-                    <div id="content">
+                <div class="container">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/1.jpg" alt="images/1.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/2.jpg" alt="images/2.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/3.jpg" alt="images/3.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/4.jpg" alt="images/4.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/5.jpg" alt="images/5.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/6.jpg" alt="images/6.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/7.jpg" alt="images/7.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/8.jpg" alt="images/8.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/9.jpg" alt="images/9.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/10.jpg" alt="images/10.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/11.jpg" alt="images/11.jpg" class="thumb" /></a></div>
                     </div>
-                    <div id="content">
+                    <div class="content">
                         <div><a href="#"><img src="images/thumbnails/12.jpg" alt="images/12.jpg" class="thumb" /></a></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="fullpage_thumbnailtoggle">View Thumbs</div> 
+        <div id="fullpage_thumbnailtoggle" class="fullpage_thumbnailtoggle">View Thumbs</div> 
     </div>
     <div>
         <span>
@@ -69,5 +69,6 @@
             <a href="#">Artist Impressions by Etuk Unyime</a>
         </span>
     </div>
+    <script type="text/javascript" src="js/gallery.js"></script>
 </body>
 </html>
