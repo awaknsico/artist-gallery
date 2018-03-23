@@ -15,7 +15,7 @@
 - [x] Write a detailed readme
 - [x] Build and push HTML file
 - [x] Build and push CSS file
-- [ ] Upload and push JQuery thumbnail scroller by **Manos Malihu**
+- [x] Upload and push JQuery thumbnail scroller by **Manos Malihu**
 - [ ] Pull all branches to master branch
 - [ ] Set up Firebase
 - [ ] Deploy to Firebase
