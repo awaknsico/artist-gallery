@@ -13,8 +13,8 @@
 
 ## Task List
 - [x] Write a detailed readme
-- [ ] Build and push HTML file
-- [ ] Build and push CSS file
+- [x] Build and push HTML file
+- [x] Build and push CSS file
 - [ ] Upload and push JQuery thumbnail scroller by **Manos Malihu**
 - [ ] Pull all branches to master branch
 - [ ] Set up Firebase
