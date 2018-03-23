@@ -4,11 +4,36 @@
 }
 body {
     background:#490657;
-    overflow:hidden;
 	font-family:Arial, Helvetica, sans-serif;
 	text-transform:uppercase;
 	color:#fff;
 	font-size:10px;
+}
+span.reference{
+    font-family:Arial;
+    position:fixed;
+    right:10px;
+    top:10px;
+    font-size:10px;
+}
+span.reference a{
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration:none;
+    text-shadow:1px 1px 1px #000;
+    margin-left:20px;
+}
+span.reference a:hover{
+    color:#ddd;
+}
+h1.title{
+    width:919px;
+    height:148px;
+    position:fixed;
+    top:10px;
+    left:10px;
+    text-indent:-9000px;
+    z-index:2;
 }
 #parent_container{
 	position:fixed;
